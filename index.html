@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Image Carousel</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel='stylesheet' type='text/css' media='screen' href='style.css'>   
+</head>
+<body>
+    <section class="container" aria-label="Newest Photos">
+        <div class="image-slider" data-carousel>
+            <button class="slider-button prev" data-carousel-button="prev">&#171</button>
+            <button class="slider-button next" data-carousel-button="next">&#187</button>
+            <ul data-slides>
+                <li class="slide" data-active>
+                    <img src="./images/bonsai1.jpg" alt="Bonsai#1">
+                </li>
+                <li class="slide">
+                    <img src="./images/bonsai2.jpg" alt="Bonsai#2">
+                </li> 
+                <li class="slide">
+                    <img src="./images/bonsai3.jpg" alt="Bonsai#3">
+                </li>
+                <li class="slide">
+                    <img src="./images/bonsai4.jpg" alt="Bonsai#4">
+                </li>
+            </ul>
+        </div>
+    </section>
+    <script src='app.js'></script>
+</body>
+</html>
+
